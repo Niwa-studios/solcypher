@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Particles from './particles'
 
 export default function Hero() {
