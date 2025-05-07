@@ -17,7 +17,7 @@ function CallBotPage() {
         />
       </div>
       <div className="flex flex-col-reverse items-center justify-center relative z-[1] mx-auto lg:flex-row">
-        <div className="w-fit overflow-hidden">
+        <div data-aos="fade-up" className="w-fit overflow-hidden">
           <Image
             src={CallBotDemo}
             width={645}
@@ -26,7 +26,7 @@ function CallBotPage() {
             className="ml-0 lg:ml-[70px]"
           />
         </div>
-        <div className="flex flex-col items-center max-w-full text-center lg:max-w-[30%] lg:items-start lg:text-left">
+        <div data-aos="fade-down" className="flex flex-col items-center max-w-full text-center lg:max-w-[30%] lg:items-start lg:text-left">
           <h1 className="font-extrabold text-4xl tracking-[-0.61px] text-[#E2E8F0] mb-[25px] md:text-[64px] md:leading-[72px]">
             Welcome to SolCypher Call Bot
           </h1>
