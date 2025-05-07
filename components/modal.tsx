@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Illustration from "@/public/images/feature-container-gradient.png";
 import Logo from "./ui/logo";
+import Link from "next/link";
 
 interface ModalProps{
   close: ()=>void
@@ -40,13 +41,13 @@ function Modal({ close }: ModalProps) {
               </div>
             </div>
             <div className="mx-auto text-center">
-              <a
+              <Link
                 className="btn text-white bg-[#AD46FF] hover:bg-[#ac46ffb2] w-full transition duration-150 ease-in-out group py-3 px-[15px] border-2 border-[#E9D4FF] modal-btn-shadow"
                 target="_blank"
                 href="https://t.me/solcypher_bot"
               >
                 Get Started
-              </a>
+              </Link>
               <p className="mt-3.5 text-sm">
                 Connect with Telegram to access your dashboard
               </p>

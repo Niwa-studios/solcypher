@@ -38,8 +38,7 @@ export default function Header() {
                 <li>
                   <Link
                     className="font-medium text-sm text-slate-300 hover:text-white whitespace-nowrap transition duration-150 ease-in-out p-2"
-                    target="_blank"
-                    href="https://t.me/solcypher_gem_bot"
+                    href="/call-bot"
                   >
                     Call Bot
                   </Link>
@@ -56,8 +55,7 @@ export default function Header() {
                 <li>
                   <Link
                     className="font-medium text-sm text-slate-300 hover:text-white transition duration-150 ease-in-out p-2"
-                    target="_blank"
-                    href="https://docs.solcypher.ai"
+                    href="/docs"
                   >
                     Docs
                   </Link>

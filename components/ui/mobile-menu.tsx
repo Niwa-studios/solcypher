@@ -36,7 +36,7 @@ export default function MobileMenu() {
   });
 
   return (
-    <div className="xl:hidden flex items-center ml-4">
+    <div className="lg:hidden flex items-center ml-4">
       {/* Hamburger button */}
       <button
         ref={trigger}
@@ -98,8 +98,7 @@ export default function MobileMenu() {
           <li>
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
-              target="_blank"
-              href="https://t.me/solcypher_gem_bot"
+              href="/call-bot"
             >
               Call Bot
             </Link>
@@ -116,8 +115,7 @@ export default function MobileMenu() {
           <li>
             <Link
               className="flex font-medium text-sm text-slate-300 hover:text-white py-1.5"
-              target="_blank"
-              href="https://docs.solcypher.ai"
+              href="/docs"
             >
               Docs
             </Link>

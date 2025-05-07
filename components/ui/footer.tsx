@@ -1,13 +1,12 @@
-import Logo from './logo'
+import Link from "next/link";
+import Logo from "./logo";
 
 export default function Footer() {
   return (
     <footer>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-
         {/* Blocks */}
         <div className="grid sm:grid-cols-12 gap-8 py-8 md:py-12">
-
           {/* 1st block */}
           <div className="sm:col-span-12 lg:col-span-4 order-1 lg:order-none">
             <div className="h-full flex flex-col sm:flex-row lg:flex-col justify-between">
@@ -15,13 +14,25 @@ export default function Footer() {
                 <div className="mb-4">
                   <Logo />
                 </div>
-                <div className="text-sm text-slate-300">© SolCypher.AI <span className="text-slate-500">-</span> All rights reserved.</div>
+                <div className="text-sm text-slate-300">
+                  © SolCypher.AI <span className="text-slate-500">-</span> All
+                  rights reserved.
+                </div>
               </div>
               {/* Social links */}
               <ul className="flex">
                 <li>
-                  <a className="flex justify-center items-center text-purple-500 hover:text-purple-400 transition duration-150 ease-in-out" target="_blank" href="https://x.com/solcypherbot" aria-label="Twitter">
-                    <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                  <a
+                    className="flex justify-center items-center text-purple-500 hover:text-purple-400 transition duration-150 ease-in-out"
+                    target="_blank"
+                    href="https://x.com/solcypherbot"
+                    aria-label="Twitter"
+                  >
+                    <svg
+                      className="w-8 h-8 fill-current"
+                      viewBox="0 0 32 32"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
                       <path d="m13.063 9 3.495 4.475L20.601 9h2.454l-5.359 5.931L24 23h-4.938l-3.866-4.893L10.771 23H8.316l5.735-6.342L8 9h5.063Zm-.74 1.347h-1.457l8.875 11.232h1.36l-8.778-11.232Z" />
                     </svg>
                   </a>
@@ -68,13 +79,26 @@ export default function Footer() {
 
           {/* 3rd block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-sm text-slate-50 font-medium mb-2">Resources</h6>
+            <h6 className="text-sm text-slate-50 font-medium mb-2">
+              Resources
+            </h6>
             <ul className="text-sm space-y-2">
               <li>
-                <a className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="https://t.me/solcypher_portal" target="_blank">Community Chat</a>
+                <a
+                  className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out"
+                  href="https://t.me/solcypher_portal"
+                  target="_blank"
+                >
+                  Community Chat
+                </a>
               </li>
               <li>
-                <a className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="https://docs.solcypher.ai" target="_blank">Documentation</a>
+                <Link
+                  className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out"
+                  href="/docs"
+                >
+                  Documentation
+                </Link>
               </li>
             </ul>
           </div>
@@ -84,36 +108,72 @@ export default function Footer() {
             <h6 className="text-sm text-slate-50 font-medium mb-2">Telegram</h6>
             <ul className="text-sm space-y-2">
               <li>
-                <a className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="https://t.me/solcypher" target="_blank">AI Gem Scanner Channel</a>
+                <a
+                  className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out"
+                  href="https://t.me/solcypher"
+                  target="_blank"
+                >
+                  AI Gem Scanner Channel
+                </a>
               </li>
               <li>
-                <a className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="https://t.me/solcypher_bot" target="_blank">SolCypher Telegram Trade Bot</a>
+                <a
+                  className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out"
+                  href="https://t.me/solcypher_bot"
+                  target="_blank"
+                >
+                  SolCypher Telegram Trade Bot
+                </a>
               </li>
             </ul>
           </div>
 
           {/* 5th block */}
           <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-            <h6 className="text-sm text-slate-50 font-medium mb-2">Social Links</h6>
+            <h6 className="text-sm text-slate-50 font-medium mb-2">
+              Social Links
+            </h6>
             <ul className="text-sm space-y-2">
               <li>
-                <a className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="https://linktr.ee/SolCypherBot" target="_blank">Linktree</a>
+                <a
+                  className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out"
+                  href="https://linktr.ee/SolCypherBot"
+                  target="_blank"
+                >
+                  Linktree
+                </a>
               </li>
               <li>
-                <a className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="https://x.com/solcypherbot" target="_blank">SolCypher Trade Bot X</a>
+                <a
+                  className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out"
+                  href="https://x.com/solcypherbot"
+                  target="_blank"
+                >
+                  SolCypher Trade Bot X
+                </a>
               </li>
               <li>
-                <a className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="https://x.com/solcypher_agent" target="_blank">SolCypher AI Agent X</a>
+                <a
+                  className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out"
+                  href="https://x.com/solcypher_agent"
+                  target="_blank"
+                >
+                  SolCypher AI Agent X
+                </a>
               </li>
               <li>
-                <a className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="https://medium.com/@solcypher" target="_blank">SolCypher Medium</a>
+                <a
+                  className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out"
+                  href="https://medium.com/@solcypher"
+                  target="_blank"
+                >
+                  SolCypher Medium
+                </a>
               </li>
             </ul>
           </div>
-
         </div>
-
       </div>
     </footer>
-  )
+  );
 }
