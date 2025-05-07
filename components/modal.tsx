@@ -43,7 +43,7 @@ function Modal({ close }: ModalProps) {
               <a
                 className="btn text-white bg-[#AD46FF] hover:bg-[#ac46ffb2] w-full transition duration-150 ease-in-out group py-3 px-[15px] border-2 border-[#E9D4FF] modal-btn-shadow"
                 target="_blank"
-                href="https://t.me/solcypher_portal"
+                href="https://t.me/solcypher_bot"
               >
                 Get Started
               </a>
