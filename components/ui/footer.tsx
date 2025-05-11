@@ -100,6 +100,15 @@ export default function Footer() {
                   Documentation
                 </Link>
               </li>
+              <li>
+                <Link
+                  className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out"
+                  href="/tokenomics"
+                >
+                  Tokenomics
+                </Link>
+              </li>
+              
             </ul>
           </div>
 
