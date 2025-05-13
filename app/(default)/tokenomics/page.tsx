@@ -1,8 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import PieChart from "@/public/images/pie-chart.svg";
+import PieChartCropped from "@/public/images/pie-chart-cropped.png";
 import CallBotTopBg from "@/public/images/call-bot-bg.png";
-
 
 function Tokenomics() {
   return (
@@ -15,15 +14,18 @@ function Tokenomics() {
           alt="gradient shape"
         />
       </div>
-      <h1 data-aos="fade-down" className="font-extrabold text-4xl tracking-[-0.61px] text-[#E2E8F0] mb-[25px] text-center relative z-[2] md:text-[64px] md:leading-[72px]">
+      <h1
+        data-aos="fade-down"
+        className="font-extrabold text-4xl tracking-[-0.61px] text-[#E2E8F0] mb-[25px] text-center relative z-[2] md:text-[64px] md:leading-[72px]"
+      >
         Tokenomics
       </h1>
-      <div data-aos="fade-up" className="-mt-10 mx-auto lg:-mt-40">
+      <div data-aos="fade-up" className="-mt-10 mx-auto lg:-mt-16">
         <Image
-          src={PieChart}
+          src={PieChartCropped}
           alt="Tokenomics"
-          width={2573.63}
-          height={917}
+          width={1267}
+          height={726}
           layout="responsive"
         />
       </div>

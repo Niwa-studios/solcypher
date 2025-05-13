@@ -3,6 +3,7 @@ import Particles from './particles'
 export default function Hero() {
   return (
     <section className="bg-[url(/images/hero.png)] bg-no-repeat bg-cover bg-[100%] relative w-full md:bg-center">
+      <div className='block absolute h-full top-0 w-full right-0 bg-[#0F172B] opacity-70 md:hidden'></div>
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6">
         {/* Particles animation */}
         <Particles className="absolute inset-0 z-0" />
@@ -40,7 +41,6 @@ export default function Hero() {
         </div>
       </div>
       <div className='block absolute h-[150px] bottom-0 w-full right-0 -bg-linear-180 from-[#0f172b00] from-0% to-[#0F172B] to-[53.38%]'></div>
-
     </section>
   )
 }
