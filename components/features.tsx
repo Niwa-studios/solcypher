@@ -35,7 +35,6 @@ export default function Features() {
         />
       </div>
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-
         <div className="pt-16 pb-12 md:pt-52 md:pb-20">
           <div>
             {/* Section content */}
@@ -131,6 +130,29 @@ export default function Features() {
                 />
               </div>
             </div>
+          </div>
+        </div>
+        <div className="max-w-4xl pb-40 py-20 pt-0 mx-auto text-center">
+          <h2 className="h2 bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4">
+            Stake $CYPHER Chart
+          </h2>
+          <p className="text-lg text-slate-400 mb-8">
+            Stakers earn 100% of SolCypher bot profits & 89% of LP fees. Rewards
+            are distributed weekly
+          </p>
+          <div>
+            <a
+              className="btn-sm text-slate-300 hover:text-white transition duration-150 ease-in-out group [background:linear-gradient(var(--color-slate-900),var(--color-slate-900))_padding-box,conic-gradient(var(--color-slate-400),var(--color-slate-700)_25%,var(--color-slate-700)_75%,var(--color-slate-400)_100%)_border-box] relative before:absolute before:inset-0 before:bg-slate-800/30 before:rounded-full before:pointer-events-none py-2 px-4"
+              href="https://gofundmeme.io/campaigns/iQbAiVeCbyGJBbrxwxEa7LYSykSGd5FMVshgeRayGFM"
+              target="_blank"
+            >
+              <span className="relative inline-flex items-center">
+                Get Started{" "}
+                <span className="tracking-normal text-purple-500 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
+                  -&gt;
+                </span>
+              </span>
+            </a>
           </div>
         </div>
         <h3 className="h3 bg-clip-text text-transparent bg-linear-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-12 pt-3 text-center">

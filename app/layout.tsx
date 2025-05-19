@@ -2,6 +2,7 @@ import './css/style.css'
 
 import { Inter } from 'next/font/google'
 import { Analytics } from "@vercel/analytics/react"
+import { Toaster } from 'react-hot-toast';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -24,7 +25,8 @@ export default function RootLayout({
       <body className={`${inter.variable} font-inter antialiased bg-slate-900 text-slate-100 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
           {children}
-          <Analytics/>
+          <Analytics />
+          <Toaster position="bottom-center"/>
         </div>
       </body>
     </html>

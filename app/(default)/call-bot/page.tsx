@@ -16,17 +16,23 @@ function CallBotPage() {
           alt="gradient shape"
         />
       </div>
-      <div className="flex flex-col-reverse items-center justify-center relative z-[1] mx-auto lg:flex-row">
-        <div data-aos="fade-up" className="w-fit overflow-hidden">
-          <Image
-            src={CallBotDemo}
-            width={645}
-            height={1066}
-            alt="iPhone with call bot"
-            className="ml-0 lg:ml-[70px]"
-          />
+      <div className="flex flex-col-reverse gap-8 items-center justify-center relative z-[1] mx-auto pb-10 lg:flex-row">
+        <div data-aos="fade-up" className="w-fit overflow-hidden max-w-[500px]">
+          <video
+            className="w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+            controls
+          >
+            <source src="/auto-snipe-tutorial.mp4" type="video/mp4" />
+          </video>
         </div>
-        <div data-aos="fade-down" className="flex flex-col items-center max-w-full text-center lg:max-w-[30%] lg:items-start lg:text-left">
+        <div
+          data-aos="fade-down"
+          className="flex flex-col items-center max-w-full text-center lg:max-w-[30%] lg:items-start lg:text-left"
+        >
           <h1 className="font-extrabold text-4xl tracking-[-0.61px] text-[#E2E8F0] mb-[25px] md:text-[64px] md:leading-[72px]">
             Welcome to SolCypher Call Bot
           </h1>
